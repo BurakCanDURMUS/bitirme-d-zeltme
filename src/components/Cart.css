@@ -1,0 +1,50 @@
+.cart {
+  width: 100%; /* Kartı sayfanın genişliği kadar yapar */
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 0px 10px 10px 0px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex; /* Flexbox modelini etkinleştir */
+  flex-wrap: wrap; /* İçerik çoksa yeni satıra geç */
+  align-items: flex-start; /* Öğeleri üst kenara hizala */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.cart:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cart h2 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.cart p {
+  margin: 5px 0;
+  color: black;
+}
+.cart button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cart button:hover {
+  background-color: #45a049;
+}
+
+.cart-map {
+  display: flex;
+  width: 300px;
+  height: 250x;
+  margin-left: auto;
+}
