@@ -1,4 +1,4 @@
-# Vercel Link : https://bitirme-projesi-azure.vercel.app
+# Vercel Link :https://bitirme-d-zeltme.vercel.app
 # Bursa Büyükşehir Belediyesi İletişim Bilgileri
 
 Bu proje, Bursa Büyükşehir Belediyesi'nin iletişim bilgilerini gösteren bir React uygulamasını içermektedir. İletişim bilgileri, belirtilen API üzerinden çekilmekte ve kullanıcıya kartlar halinde sunulmaktadır. Ayrıca, her bir kart üzerinde "Yol Tarifi Al" butonu bulunmaktadır, bu buton tıklandığında Google Maps üzerinde belirtilen adres için yol tarifi alınabilir.
